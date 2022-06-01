@@ -1,0 +1,395 @@
+<html>
+
+<head>
+    <title>CYPWare</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        div {
+            padding: 10px;
+            background-color: rgba(150, 180, 240, 0.2);
+            /* background-color: antiquewhite; */
+            overflow: hidden;
+        }
+
+        input[type=text],
+        input[type=number],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type=button] {
+
+            width: auto;
+            float: center;
+            cursor: pointer;
+            padding: 7px;
+        }
+
+
+
+
+
+        div {
+            margin-top: 8px;
+            margin-left: 50px;
+            margin-right: 50px;
+
+        }
+
+
+
+
+        h1 {
+            text-align: justify;
+            /* For Edge */
+            text-align-last: center;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            width: 60%;
+
+
+        }
+
+
+        div.a {
+            text-align: center;
+
+        }
+        .center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100%; */
+
+}
+        .animate-charcter {
+            text-align-last: center;
+            /* text-transform: uppercase; */
+            background-image: linear-gradient(-225deg,
+                    #231557 0%,
+                    #44107a 29%,
+                    #ff1361 67%,
+                    #fff800 100%);
+            background-size: auto auto;
+
+            background-clip: border-box;
+            background-size: 100% auto;
+            color: #fff;
+            background-clip: text;
+            /* text-fill-color: transparent; */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+            display: inline-block;
+            /* font-size: 50px; */
+            text-align: center;
+        }
+
+        @keyframes textclip {
+            to {
+                background-position: 100% center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+        
+        <div>
+            <div class="a">
+                <h3 class="animate-charcter" style="font-size: 50px;"><b>CYPWare 1.0</b></h3>
+            </div>
+
+            <img src="CYPWare-webtool-picture.jpg" class="center1" alt="CYPWare" width="80%" height="60%">
+
+           
+
+
+            <div><label>Enter ligand name without the file extension :</label><input type="text" id="ligandName"
+                    name="ligandName" placeholder="Enter Ligand Name"></div>
+
+
+            <div><label for="">Enter Protein name without the file extension :</label><input type="text"
+                    name="proteinName" id="proteinName" placeholder="Enter Protein Name"></div>
+
+
+            <div><label for="">Give the path where oxddir and reddir are to be created (give without the last /)
+                    :</label><input type="text" name="dirpath" id="dirpath" placeholder="Enter dirpath"></div>
+
+
+
+            <div><label for="">Give name for the ferric or oxidized state directory (oxddir) :</label><input type="text"
+                    name="oxddir" id="oxddir" placeholder="Enter oxddir"></div>
+
+
+            <div><label for="">Give name for the ferous or reduced state directory (reddir) :</label><input type="text"
+                    name="reddir" id="reddir" placeholder="Enter reddir"></div>
+
+
+            <div><label for="">Give path for the folder where parameters for the ferric or oxidized state are
+                    kept. These are the Heme,
+                    and Fe mol2,
+                    and frcmod files :</label><input type="text" name="oxdparm" id="oxdparm"
+                    placeholder="Enter oxdparm"></div>
+
+
+            <div><label for="">Give path for the folder where parameters for the ferrous or reduced state are
+                    kept. These are the Heme,
+                    and Fe mol2,
+                    and frcmod files :</label><input type="text" name="redparm" id="redparm"
+                    placeholder="Enter redparm"></div>
+
+
+            <div><label for="">Give pose number as integer to be selected for complex formation and dynamics
+                    :</label><input type="number" name="poseNumber" id="poseNumber" placeholder="Enter poseNumber">
+            </div>
+
+
+            <div><label for="">Give the expeced net-charge on the molecule as an integer e.g. -1,
+                    0 or 1 :</label><select name="molchrg" id="molchrg">
+                    <option selected value="">-- Choose the molchrg --</option>
+                    <option value="-1">-1</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                </select>
+            </div>
+
+            <div>Please check if these details are correct else you may have to terminate the MD calculation and
+                choose correct path,
+                names and values to restart the MD simulation correctly..
+            </div>
+            <div class="a">
+                <input type="submit" class="button" id="bt" value="Save Data to File" />
+            </div>
+            <div>
+                
+                <p class="center1">
+     <div style="  text-align: center;">    
+         
+<h1 class="animate-charcter">-- CYPWare 1.0 script and HTML Tool --</h1>
+</div> 
+<br>
+WELCOME to CYPWare web interface to calculate Marcus ET parameters for Cytochrome P450 BM3 reactions.  <br>
+<br>
+This script requires the following information for successful calculations (also note the dependencies on other software which are required to be in the USER-PATH are given below). <br>
+
+This user-friendly HTML tool (CYPWar-1.0.html) can be used to put all the required information in a text file which CYPWare 1.0 (this script) will read direclty. <br><br>
+<br>
+If you have these requirements ready, then proceed with the next steps, else perform the docking calculation first and then come back to this CYPWare 1.0 web interface. <br><br>
+1) Name the ligand (without file extension) that was docked into CYP450 active site using Autodock Vina. <br>
+
+2) Name the protein (without file extension) that was used for the Autodock Vina docking simulations. <br>
+
+3) Unix path on your server/workstation where you wish the new files should be created.  You should have write-permissions for that folder. It could be your home directory or any of the sub-directories. <br>
+
+4) Name the folders of the oxidized and reduced states of the Heme center. These directories will be created by the script. <br>
+
+5) Unix path where all the parameter files for the oxidized and reduced states are kept.  These are essential for successfully running the MD simulations.   
+These are kept in a folder called parameters on the GitHub page (in case of query you can post a question to the CYPWare 1.0 development team). <br>
+
+6) Posenumber for the ligand docked pose for which a complex will be created followed by MD simulations and Marcus ET parameter extraction.  
+Currently, CYPWare 1.0 takes Autodock Vina output (pdbqt file) to create the complex, but it can be modified by the user to accept other file formats (which obabel can read).<br>
+
+7) Net molecular charge on the ligand.  This is required to successfully generate ligand parameters with the antechamber program and is required for MD simulations.<br>
+<br>
+The methodology underlying the CYPWare is developed by the PI: Dr. Vaibhav A. Dixit, Asst. Prof., Dept. of Med. Chem., NIPER Guwahati in the Advanced Center of Computer-Aided Drug Design (A-CADD).
+The web interface (GUI) is developed in collaboration with C-DAC (Mr. Saurabh G. , Mr. Nikhil R. , Dr. Rajendra J.)<br>
+CYPWare software, GUI, websites, tools, layouts, and logos are subject to copyright protection and are the exclusive property of the Department of Medicinal Chemistry, NIPER Guwahati.
+The name and logos of the NIPER Guwahati website must not be associated with publicity or business promotion without NIPER G's prior written approval.<br>
+<br>
+CYPWare 1.0 is available under the creative commons license and is free for academic research groups working in a degree-granting university/institute.  <br>
+Any work/report/thesis/research-article/review-article resulting from the use of CYPWare 1.0 should properly cite the software and publication associated with the same.<br>
+<br>
+
+<div style="  text-align: center;">             
+    <h1 class="animate-charcter">-- Dependencies --</h1>
+</div>
+    <br>
+CYPWare 1.0 makes use of the following opensource tools, thus these need to be installed first from GitHub, Sourceforge, or as a conda package.<br>
+Ensure that dependencies are satisfied before running CYPWare 1.0, else the calculation will not complete as expected.<br><br>
+
+1) Openbabel 3.1 or higher<br><br>
+
+Openbabel is available as a conda package and can be installed with one of the following commands.
+<br><br>
+conda install -c conda-forge openbabel<br>
+conda install -c conda-forge/label/cf202003 openbabel
+<br><br>
+If you don't have conda, then install it from the main website <a href="https://www.anaconda.com/" target="_blank">https://www.anaconda.com/</a><br>
+Instructions for conda installation can be found on its website.
+<br><br>
+2) AmberTools and Amber18 or higher<br>
+<br><br>
+AmberTools is a freely available software used for the setup and analysis of MD simulations. It is available from the <a href="http://ambermd.org/" target="_blank">http://ambermd.org/</a> website.
+It can also be installed as a conda package with any one of the following command.
+<br>
+conda install -c conda-forge ambertools<br>
+conda install -c conda-forge/label/cf202003 ambertools
+<br><br>
+Amber18, 20 or the latest 22 version is a widely used MD engine and includes sander, pmemd, and their serial, parallel (MPI), and GPU (cuda) versions.<br>
+It is available at a reasonable price from Prof. David Case's group at UCSF <a href="http://ambermd.org/GetAmber.php#amber" target="_blank">http://ambermd.org/GetAmber.php#amber</a>
+<br><br>
+AMBERHOME directory should be in your path for CYPWare 1.0 to run correctly
+<br><br>
+3) AmberMdPrep is a wrapper script by Daniel R. Roe used for equilibrating a biomolecular system for MD simulations
+<br><br>
+It can be downloaded from <a href="https://github.com/drroe/AmberMdPrep" target="_blank">https://github.com/drroe/AmberMdPrep</a><br>
+Untar the AmberMdPrep folder and make sure that the AmberMdPrep.sh script is in your path
+<br><br>
+AmberMdPrep depends on the latest GitHub version of cpptraj which is available here <a href="https://github.com/Amber-MD/cpptraj" target="_blank">https://github.com/Amber-MD/cpptraj </a><br>
+The GitHub version of cpptraj should be installed in a separate directory and sourced before running AmberMdPrep.  CYPWare 1.0 will source cpptraj automatically if the path is set correctly.
+<br><br>
+4) Statistical tool st<br>
+A simple statistical tool available on GitHub is used to extract the averages and standard deviations in vertical energy gaps.<br>
+This is available at <a href="https://github.com/nferraz/st" target="_blank">https://github.com/nferraz/st</a><br>
+st can be installed using the following commands<br><br>
+
+git clone <a href="https://github.com/nferraz/st" target="_blank">https://github.com/nferraz/st</a><br>
+cd perl5<br>
+perl Makefile.PL<br>
+make<br>
+make test<br>
+make install<br>
+<br>
+5) Extracting Marcus ET parameters<br>
+This can be done by calling additional scripts on the Linux terminal.<br>
+bash get-Marcus-ET-parm-LB.sh file (for ligand-bound state)<br>
+bash get-Marcus-ET-parm-LF.sh file (for ligand-free state)<br>
+<br>
+<div style="  text-align: center;">             
+
+    <b >For commercial usage of CYPWare 1.0, please contact the PI at vaibhavadixit@gmail.com or vaibhav@niperguwahati.in<br>
+    ========================================================================================================================</b></div>
+              </p>
+            </div>
+        </div>
+    </form>
+</body>
+<script>
+
+    function validateForm() {
+        let lname = document.forms["myForm"]["ligandName"].value;
+        let pname = document.forms["myForm"]["proteinName"].value;
+        let directorypath = document.forms["myForm"]["dirpath"].value;
+        let oxddirectory = document.forms["myForm"]["oxddir"].value;
+        let reddirectory = document.forms["myForm"]["reddir"].value;
+        let oxdparmm = document.forms["myForm"]["oxdparm"].value;
+        let redparmm = document.forms["myForm"]["redparm"].value;
+        let posnum = document.forms["myForm"]["poseNumber"].value;
+        let molcharge = document.forms["myForm"]["molchrg"].value;
+
+        if (lname == "") {
+            alert("Ligand Name must be filled out");
+            return false;
+        }
+
+        else if (pname == "") {
+            alert("Protein Name must be filled out");
+            return false;
+        }
+
+        else if (directorypath == "") {
+            alert("dirpath must be filled out");
+            return false;
+        }
+        else if (oxddirectory == "") {
+            alert("oxddir must be filled out");
+            return false;
+        }
+        else if (reddirectory == "") {
+            alert("reddir must be filled out");
+            return false;
+        }
+        else if (oxdparmm == "") {
+            alert("oxdparm must be filled out");
+            return false;
+        }
+        else if (redparmm == "") {
+            alert("redparm must be filled out");
+            return false;
+        }
+
+        else if (posnum == "") {
+            alert("posenumber Name must be filled out");
+            return false;
+        }
+        else if (molcharge == "") {
+            alert("molchrg must be select");
+            return false;
+        }
+        else {
+            {
+
+                // Get the data from each element on the form.
+                const ligandName = document.getElementById('ligandName');
+                const proteinName = document.getElementById('proteinName');
+                const dirpath = document.getElementById('dirpath');
+                const oxddir = document.getElementById('oxddir');
+                const reddir = document.getElementById('reddir');
+                const oxdparm = document.getElementById('oxdparm');
+                const redparm = document.getElementById('redparm');
+                const poseNumber = document.getElementById('poseNumber');
+                const molchrg = document.getElementById('molchrg');
+
+
+
+                // This variable stores all the data.
+                let data = 'ligand=' + ligandName.value + '\r\n' + 'protein=' + proteinName.value + '\r\n' + 'dirpath=' + dirpath.value + '\r\n' + 'oxddir=' + oxddir.value + '\r\n' + 'reddir=' + reddir.value + '\r\n' + 'oxdparm=' + oxdparm.value + '\r\n' + 'redparm=' + redparm.value + '\r\n' + 'posenumber=' + poseNumber.value + '\r\n' + 'molchrg=' + molchrg.value;
+
+                // Convert the text to BLOB.
+                const textToBLOB = new Blob([data], {
+                    type: 'text/plain'
+                }
+
+                );
+                const sFileName = 'CYPWareData.txt'; // The file to save the data.
+
+                let newLink = document.createElement("a");
+                newLink.download = sFileName;
+
+                if (window.webkitURL != null) {
+                    newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+                }
+
+                else {
+                    newLink.href = window.URL.createObjectURL(textToBLOB);
+                    newLink.style.display = "none";
+                    document.body.appendChild(newLink);
+                }
+
+                newLink.click();
+            }
+
+        }
+    }
+
+</script>
+
+</html>
