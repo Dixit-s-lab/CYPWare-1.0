@@ -1,5 +1,5 @@
 # CYPWare-1.0
-This is a user friendly web-tool to use CYPWare-1.0 for calculating CYP450 ET parameters
+This repository contains a user friendly web-tool (cypwarecode.html) to bed used with CYPWare-1.0 program for calculating CYP450 ET parameters
 **-- CYPWare 1.0 script and HTML Tool --**
 
 WELCOME to CYPWare web interface to calculate Marcus ET parameters for Cytochrome P450 BM3 reactions.
