@@ -13,7 +13,7 @@ If you have these requirements ready, then proceed with the next steps, else per
 2) Name the protein (without file extension) that was used for the Autodock Vina docking simulations.
 3) Unix path on your server/workstation where you wish the new files should be created. You should have write-permissions for that folder. It could be your home directory or any of the sub-directories.
 4) Name the folders of the oxidized and reduced states of the Heme center. These directories will be created by the script.
-5) Unix path where all the parameter files for the oxidized and reduced states are kept (the BM3-parameters folder). These are essential for successfully running the MD simulations. These are kept in a folder called parameters on the GitHub page (in case of query you can post a question to the CYPWare 1.0 development team).
+5) Unix path where all the parameter files for the oxidized and reduced states are kept (the two sub-folders within the BM3-parameters folder). These are essential for successfully running the MD simulations. These are kept in a folder called parameters on the GitHub page (in case of query you can post a question to the CYPWare 1.0 development team).
 6) Posenumber for the ligand docked pose for which a complex will be created followed by MD simulations and Marcus ET parameter extraction. Currently, CYPWare 1.0 takes Autodock Vina output (pdbqt file) to create the complex, but it can be modified by the user to accept other file formats (which obabel can read).
 7) Net molecular charge on the ligand. This is required to successfully generate ligand parameters with the antechamber program and is required for MD simulations.
 
