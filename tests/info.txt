@@ -1,0 +1,2 @@
+This folder contains test ligand and protein files for running the CYPWare 1.0 calculations.
+Use the cypwarecode.html file in browser to define input variables that the CYPWare 1.0 program will use for running calculations with these two (ligand and protein) files.
