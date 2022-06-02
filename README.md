@@ -91,9 +91,11 @@ bash CYPWare-1.0-LF-1bvy-af-Marcus-ET-MD.sh file (for ligand-free state, use fil
 6) Extracting Marcus ET parameters
 This can be done by calling additional scripts on the Linux terminal.
 
+
 bash get-Marcus-ET-parm-LB.sh file (for ligand-bound state)
 
 bash get-Marcus-ET-parm-LF.sh file (for ligand-free state)
+
 For commercial usage of CYPWare 1.0, please contact the PI at vaibhavadixit@gmail.com or vaibhav@niperguwahati.in
 
 **Funding Sources**
