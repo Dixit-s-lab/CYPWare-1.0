@@ -66,11 +66,17 @@ This is available at https://github.com/nferraz/st
 st can be installed using the following commands
 
 git clone https://github.com/nferraz/st
+
 cd perl5
+
 perl Makefile.PL
+
 make
+
 make test
+
 make install
+
 
 5) Running CYPWare web tool followed by CYPWare 1.0 program (script)
 a) First download the CYPWare package form this repository and extract the contents into a folder of your choice.
@@ -78,13 +84,15 @@ b) Then double-click (start) the HTML tool (cypwarecode.html) to open a browser 
 c) Enter ligand, protein file names (without extension) and give directory path and variable values as instructed.
 d) Save the file in the location where you want to run the script.  A text file will be saved.
 e) Copy the CYPWare 1.0 program (script) into a folder where ligand and protein pdbqt files along with the text file created in step d above.
-f) Then run the CYPWare 1.0 program using the following bash command
+f) Then run the CYPWare 1.0 program using the following bash commands for liand-bound (LB) or ligand-free (LF) CYP450 BM3 states
 bash CYPWare-1.0-LB-1bvy-af-Marcus-ET-MD.sh file (for ligand-bound state, use file saved in step d)
+
 bash CYPWare-1.0-LF-1bvy-af-Marcus-ET-MD.sh file (for ligand-free state, use file saved in step d)
 
 6) Extracting Marcus ET parameters
 This can be done by calling additional scripts on the Linux terminal.
 bash get-Marcus-ET-parm-LB.sh file (for ligand-bound state)
+
 bash get-Marcus-ET-parm-LF.sh file (for ligand-free state)
 
 For commercial usage of CYPWare 1.0, please contact the PI at vaibhavadixit@gmail.com or vaibhav@niperguwahati.in
