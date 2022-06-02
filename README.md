@@ -77,7 +77,6 @@ make test
 
 make install
 
-
 5) Running CYPWare web tool followed by CYPWare 1.0 program (script)
 a) First download the CYPWare package form this repository and extract the contents into a folder of your choice.
 b) Then double-click (start) the HTML tool (cypwarecode.html) to open a browser window.
@@ -94,9 +93,7 @@ This can be done by calling additional scripts on the Linux terminal.
 bash get-Marcus-ET-parm-LB.sh file (for ligand-bound state)
 
 bash get-Marcus-ET-parm-LF.sh file (for ligand-free state)
-
 For commercial usage of CYPWare 1.0, please contact the PI at vaibhavadixit@gmail.com or vaibhav@niperguwahati.in
-========================================================================================================================
 
 **Funding Sources**
 VAD acknowledges the financial support from the National Supercomputing Mission (NSM), Department of Science and Technology (DST), New Delhi 
