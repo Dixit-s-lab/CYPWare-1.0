@@ -77,7 +77,8 @@ make test
 
 make install
 
-5) Running CYPWare web tool followed by CYPWare 1.0 program (script)
+5) Running CYPWare web tool followed by CYPWare 1.0 program (script).
+
 a) First download the CYPWare package form this repository and extract the contents into a folder of your choice.
 
 b) Then double-click (start) the HTML tool (cypwarecode.html) to open a browser window.
