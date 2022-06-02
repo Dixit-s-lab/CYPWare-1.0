@@ -1,0 +1,1 @@
+This folder contains parameter files for the FMN oxidized and Heme-Ferrous (reduced state) of BM3
