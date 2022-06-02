@@ -5,19 +5,20 @@ This repository contains a user friendly web-tool (cypwarecode.html) to be used 
 WELCOME to CYPWare web interface to calculate Marcus ET parameters for Cytochrome P450 BM3 reactions.
 
 This script requires the following information for successful calculations (also note the dependencies on other software which are required to be in the USER-PATH are given below).
-This user-friendly HTML tool (cypwarecode.html) can be used to put all the required information in a text file which CYPWare 1.0 (this script) will read direclty.
+This user-friendly HTML tool (cypwarecode.html) can be used to put all the required information in a text file which CYPWare 1.0 script will read direclty.
 
-If you have these requirements ready, then proceed with the next steps, else perform the docking calculation first and then come back to this CYPWare 1.0 web interface.
+If you have these requirements ready, then proceed with the next steps, else perform the docking calculation with Vina first and then come back to this CYPWare 1.0 web interface.
 
+Steps to be completed in the cypwarecode.html browser window
 1) Name the ligand (without file extension) that was docked into CYP450 active site using Autodock Vina.
 2) Name the protein (without file extension) that was used for the Autodock Vina docking simulations.
-3) Unix path on your server/workstation where you wish the new files should be created. You should have write-permissions for that folder. It could be your home directory or any of the sub-directories.
-4) Name the folders of the oxidized and reduced states of the Heme center. These directories will be created by the script.
-5) Unix path where all the parameter files for the oxidized and reduced states are kept (the two sub-folders within the BM3-parameters folder). These are essential for successfully running the MD simulations. These are kept in a folder called BM3-parameters on this GitHub page (in case of query you can post a question to the CYPWare 1.0 development team).
+3) Unix path on your server/workstation where you wish the new MD files should be created. You should have write-permissions for that folder. It could be your home directory or any of the sub-directories.
+4) Name the folders for the oxidized and reduced states of the Heme center. These directories will be created by the CYPWare 1.0 script.
+5) Unix path where all the parameter files for the oxidized and reduced states are kept (the two sub-folders within the BM3-parameters folder). These are essential for successfully running the MD simulations. Copy these folders into a desired location. (In case of query you can post a question to the CYPWare 1.0 development team).
 6) Posenumber for the ligand docked pose for which a complex will be created followed by MD simulations and Marcus ET parameter extraction. Currently, CYPWare 1.0 takes Autodock Vina output (pdbqt file) to create the complex, but it can be modified by the user to accept other file formats (which obabel can read).
 7) Net molecular charge on the ligand. This is required to successfully generate ligand parameters with the antechamber program and is required for MD simulations.
 
-The methodology underlying the CYPWare is developed by the PI: Dr. Vaibhav A. Dixit, Asst. Prof., Dept. of Med. Chem., NIPER Guwahati in the Advanced Center of Computer-Aided Drug Design (A-CADD). The web interface (GUI) is developed in collaboration with C-DAC (Mr. Saurabh G. , Mr. Nikhil R. , Dr. Rajendra J.)
+The methodology underlying the CYPWare 1.0 is developed by the PI: Dr. Vaibhav A. Dixit, Asst. Prof., Dept. of Med. Chem., NIPER Guwahati in the Advanced Center of Computer-Aided Drug Design (A-CADD). The web interface (GUI) is developed in collaboration with C-DAC Pune team (Mr. Saurabh G. , Mr. Nikhil R. , and Dr. Rajendra J.).
 CYPWare software, GUI, websites, tools, layouts, and logos are subject to copyright protection and are the exclusive property of the Department of Medicinal Chemistry, NIPER Guwahati. The name and logos of the NIPER Guwahati website must not be associated with publicity or business promotion without NIPER G's prior written approval.
 
 CYPWare 1.0 is available under the creative commons license and is free for academic research groups working in a degree-granting university/institute.
