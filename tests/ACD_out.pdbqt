@@ -1,0 +1,558 @@
+MODEL 1
+REMARK VINA RESULT:      -6.9      0.000      0.000
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       12.482  43.073  79.549  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       12.051  42.321  80.590  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       13.595  42.963  78.511  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       14.143  41.232  76.638  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       13.814  41.600  77.896  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       14.411  42.157  75.499  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       13.367  41.129  73.339  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       13.531  42.085  74.282  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       13.925  39.744  73.070  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       14.108  38.767  74.238  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       15.501  38.204  74.508  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       17.349  39.906  75.213  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       16.724  39.068  74.125  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       12.540  40.986  81.088  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       12.482  40.667  82.577  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       13.068  39.795  83.419  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       14.024  38.674  83.150  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       14.215  37.692  84.310  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       13.961  36.252  83.844  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       13.918  35.253  84.935  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       14.676  34.242  85.076  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       13.031  35.537  85.885  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       12.586  34.682  86.076  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.7      5.017      7.535
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       15.066  39.160  72.693  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       14.331  40.296  72.614  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       15.342  38.113  73.767  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       16.564  39.349  75.712  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       15.560  38.624  75.172  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       17.757  39.868  74.982  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       19.457  38.027  74.252  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       19.028  39.066  75.005  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       18.922  37.225  73.080  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       18.175  35.912  73.345  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       18.277  35.282  74.732  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       16.947  34.315  76.757  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       17.035  35.335  75.650  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       13.425  40.935  73.633  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       13.887  42.180  74.381  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       14.198  42.505  75.650  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       14.123  41.699  76.910  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       13.880  42.510  78.186  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       13.273  43.878  77.846  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       12.115  44.260  78.685  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       11.383  45.291  78.554  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       11.801  43.353  79.606  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       11.019  42.883  79.240  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.5      1.364      2.639
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       11.431  40.581  81.094  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       11.905  39.869  82.145  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       11.856  41.844  80.352  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       13.641  42.543  78.583  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       13.150  41.770  79.576  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       12.977  43.749  78.006  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       13.852  43.868  75.550  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       13.557  44.375  76.769  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       13.731  42.521  74.862  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       14.449  41.305  75.460  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       13.849  39.919  75.235  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       14.792  38.982  72.990  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       14.703  38.868  74.491  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       13.143  40.079  82.976  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       14.011  38.885  83.355  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       14.117  38.039  84.397  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       13.399  38.015  85.711  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       13.557  36.720  86.513  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       13.308  35.499  85.617  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       14.455  34.568  85.520  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       14.832  33.925  84.490  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       15.181  34.496  86.632  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       15.417  35.427  86.839  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.4      3.065      5.680
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       13.709  41.408  73.700  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       13.752  42.016  74.910  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       13.680  39.966  73.204  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       15.043  37.967  74.180  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       14.065  38.899  74.203  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       16.054  37.788  73.097  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       18.085  36.167  73.334  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       16.811  36.492  73.017  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       19.291  36.885  73.911  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       19.327  37.210  75.410  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       18.393  38.292  75.944  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       17.255  40.604  75.536  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       18.410  39.675  75.256  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       13.738  41.420  76.293  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       14.404  42.165  77.443  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       14.006  42.887  78.509  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       12.637  43.314  78.940  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       12.154  42.708  80.261  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       12.238  41.176  80.213  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       11.836  40.501  81.467  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       12.483  40.473  82.561  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       10.626  39.951  81.414  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       10.007  40.711  81.347  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.3      5.770      8.000
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       19.751  37.110  74.659  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       19.934  35.936  74.009  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       19.132  37.535  75.987  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       16.876  38.725  75.438  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       18.131  38.666  75.936  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       16.133  37.595  74.807  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       16.221  37.954  72.223  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       16.409  37.258  73.368  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       15.702  39.329  71.846  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       14.249  39.698  72.169  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       13.949  41.108  72.674  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       13.578  40.345  75.141  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       13.183  41.257  74.007  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       19.601  34.530  74.436  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       18.147  34.081  74.493  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       17.140  34.119  75.387  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       17.115  34.598  76.806  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       17.692  33.618  77.832  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       19.183  33.899  78.064  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       20.047  32.698  78.021  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       20.837  32.291  78.930  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       19.878  31.958  76.929  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       19.341  32.518  76.325  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.2      3.824      6.264
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       15.154  40.595  74.920  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       15.331  41.416  75.982  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       13.955  40.000  74.189  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       14.987  39.269  71.907  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       14.068  39.879  72.687  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       16.168  38.496  72.392  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       16.319  36.990  74.518  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       15.940  37.286  73.254  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       17.083  37.689  75.628  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       18.507  38.191  75.358  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       19.525  37.218  74.769  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       21.098  36.650  72.766  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       19.836  37.314  73.259  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       14.313  42.115  76.845  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       13.696  43.425  76.375  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       13.098  44.490  76.944  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       12.731  44.755  78.371  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       11.856  43.682  79.025  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       12.706  42.761  79.911  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       11.965  41.625  80.503  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       10.854  41.147  80.108  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       12.611  41.026  81.499  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       12.049  40.255  81.737  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.2      4.680      7.870
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       19.949  36.929  75.477  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       19.683  35.911  74.624  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       19.279  38.251  75.840  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       16.673  38.374  75.816  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       17.876  38.169  76.396  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       16.442  38.724  74.384  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       13.907  39.342  74.344  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       15.032  38.765  73.865  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       13.534  40.196  75.542  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       14.513  41.271  76.032  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       13.969  42.424  76.871  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       12.907  42.981  79.189  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       13.993  42.281  78.410  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       18.511  35.703  73.701  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       17.429  34.695  74.068  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       16.767  34.325  75.181  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       16.928  34.768  76.603  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       17.561  33.732  77.537  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       19.008  33.441  77.115  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       20.005  33.606  78.196  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       20.499  32.690  78.927  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       20.460  34.850  78.319  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       19.653  35.410  78.357  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -6.2      6.090      8.754
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       15.949  41.815  76.096  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       14.735  42.361  75.847  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       16.858  40.811  75.393  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       17.592  38.405  76.085  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       16.687  39.359  75.777  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       19.071  38.592  76.147  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       20.373  36.334  76.020  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       19.927  37.456  76.631  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       20.262  35.718  74.638  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       18.876  35.515  74.014  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       18.087  34.261  74.381  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       17.173  34.631  76.796  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       16.879  34.411  75.333  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       13.814  42.179  74.668  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       13.472  40.774  74.187  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       13.635  40.054  73.060  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       14.202  40.442  71.730  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       15.150  39.414  71.104  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       16.224  38.988  72.115  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       16.216  37.545  72.445  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       15.656  36.992  73.443  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       16.802  36.784  71.525  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       16.072  36.253  71.136  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -6.1      4.695      7.909
+REMARK  Name = arachidonic acid
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       17.564  38.438  76.149  0.00  0.00    -0.027 C 
+ATOM      2  C   LIG    1       16.343  38.793  75.682  0.00  0.00    -0.027 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   LIG    1       18.999  38.548  75.643  0.00  0.00    +0.053 C 
+BRANCH   3   5
+ATOM      4  C   LIG    1       19.734  36.491  74.217  0.00  0.00    -0.027 C 
+ATOM      5  C   LIG    1       19.710  37.251  75.334  0.00  0.00    -0.027 C 
+BRANCH   4   6
+ATOM      6  C   LIG    1       19.036  36.801  72.935  0.00  0.00    +0.053 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       16.701  35.764  73.468  0.00  0.00    -0.031 C 
+ATOM      8  C   LIG    1       17.545  36.630  72.861  0.00  0.00    -0.027 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       16.822  34.635  74.474  0.00  0.00    +0.027 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1       16.739  34.950  75.972  0.00  0.00    +0.004 C 
+BRANCH  10  11
+ATOM     11  C   LIG    1       17.771  34.327  76.908  0.00  0.00    +0.000 C 
+BRANCH  11  13
+ATOM     12  C   LIG    1       19.672  32.567  77.221  0.00  0.00    +0.004 C 
+ATOM     13  C   LIG    1       18.883  33.452  76.288  0.00  0.00    -0.003 C 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   2  14
+ATOM     14  C   LIG    1       15.964  39.520  74.419  0.00  0.00    +0.053 C 
+BRANCH  14  15
+ATOM     15  C   LIG    1       14.499  39.826  74.134  0.00  0.00    -0.027 C 
+ATOM     16  C   LIG    1       13.662  40.869  74.298  0.00  0.00    -0.031 C 
+BRANCH  16  17
+ATOM     17  C   LIG    1       13.880  42.200  74.948  0.00  0.00    +0.027 C 
+BRANCH  17  18
+ATOM     18  C   LIG    1       14.686  42.161  76.251  0.00  0.00    +0.015 C 
+BRANCH  18  19
+ATOM     19  C   LIG    1       13.916  41.397  77.337  0.00  0.00    +0.121 C 
+BRANCH  19  20
+ATOM     20  C   LIG    1       13.484  42.229  78.482  0.00  0.00    +0.305 C 
+ATOM     21  O   LIG    1       13.692  43.473  78.644  0.00  0.00    -0.251 OA
+BRANCH  20  22
+ATOM     22  O   LIG    1       12.734  41.576  79.364  0.00  0.00    -0.481 OA
+ATOM     23  H   LIG    1       13.283  41.530  80.178  0.00  0.00    +0.295 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+TORSDOF 15
+ENDMDL
