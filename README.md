@@ -33,6 +33,7 @@ Ensure that dependencies are satisfied before running CYPWare 1.0, else the calc
 Openbabel is available as a conda package and can be installed with one of the following commands.
 
 conda install -c conda-forge openbabel
+
 conda install -c conda-forge/label/cf202003 openbabel
 
 If you don't have conda, then install it from the main website https://www.anaconda.com/
@@ -43,6 +44,7 @@ Instructions for conda installation can be found on its website.
 
 AmberTools is a freely available software used for the setup and analysis of MD simulations. It is available from the http://ambermd.org/ website. It can also be installed as a conda package with any one of the following command.
 conda install -c conda-forge ambertools
+
 conda install -c conda-forge/label/cf202003 ambertools
 
 Amber18, 20 or the latest 22 version is a widely used MD engine and includes sander, pmemd, and their serial, parallel (MPI), and GPU (cuda) versions.
