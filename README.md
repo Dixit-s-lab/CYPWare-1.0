@@ -1,6 +1,6 @@
 # CYPWare-1.0
 This is a user friendly web-tool to use CYPWare-1.0 for calculating CYP450 ET parameters
--- CYPWare 1.0 script and HTML Tool --
+**-- CYPWare 1.0 script and HTML Tool --**
 
 WELCOME to CYPWare web interface to calculate Marcus ET parameters for Cytochrome P450 BM3 reactions.
 
@@ -90,6 +90,7 @@ bash CYPWare-1.0-LF-1bvy-af-Marcus-ET-MD.sh file (for ligand-free state, use fil
 
 6) Extracting Marcus ET parameters
 This can be done by calling additional scripts on the Linux terminal.
+
 bash get-Marcus-ET-parm-LB.sh file (for ligand-bound state)
 
 bash get-Marcus-ET-parm-LF.sh file (for ligand-free state)
