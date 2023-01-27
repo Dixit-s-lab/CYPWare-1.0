@@ -1,5 +1,8 @@
 echo "
 ============================================================================================      CYPWare 1.0 script and HTML tool     ==========================================================================================================================
+Please cite the use of CYPWare 1.0 and the HTML Tools as follows:
+Dixit, V. A.; USN Murty, Bajaj, P.; Blumberger, J.; and Sam P. de Visser. Mechanisms of Electron Transfer Rate Modulations in Cytochrome P450 BM3. J. Phys. Chem. B. 2022 126 (47), 9737-9747. DOI: 10.1021/acs.jpcb.2c03967
+https://pubs.acs.org/doi/10.1021/acs.jpcb.2c03967
 
 WELCOME to CYPWare web interface to calculate Marcus ET parameters for Cytochrome P450 BM3 reactions.  
 This script requires the following information for successful calculations (also note the dependencies on other software which are required to be in the USER-PATH are given below).
