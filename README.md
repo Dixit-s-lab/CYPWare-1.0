@@ -8,6 +8,9 @@ https://pubs.acs.org/doi/10.1021/acs.jpcb.2c03967
 
 WELCOME to CYPWare web interface to calculate Marcus ET parameters for Cytochrome P450 BM3 reactions.
 
+Happy to announce that CYPWare 1.0 is now also available for Gromacs users also. It is called G-CYPWare 1.0 and developed by Mr. Pulkit Asati as part of his JRF supported by NSM, DST Project. It is available at the following link.
+https://github.com/pulkitasati/G-CYPWare-1.0
+
 This script requires the following information for successful calculations (also note the dependencies on other software which are required to be in the USER-PATH are given below).
 This user-friendly HTML tool (cypwarecode.html) can be used to put all the required information in a text file which CYPWare 1.0 script will read direclty.
 
